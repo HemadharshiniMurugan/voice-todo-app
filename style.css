@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.controls input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.controls button {
+  padding: 10px 15px;
+  margin-left: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #eaeaea;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 5px;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
